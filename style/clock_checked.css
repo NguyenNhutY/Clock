@@ -35,7 +35,11 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-#seconds, #tens{
+#seconds, #tens, #hours, #minutes{
+  font-size:2em;
+}
+.colon
+{
   font-size:2em;
 }
 .button_clock
@@ -65,9 +69,12 @@ margin: 10px;
   border-color: solid 1px white;
   color: blue;
   }
-
-
-
+  .transparent-input {
+    background-color: transparent;
+    border: none; /* Nếu bạn muốn loại bỏ viền */
+    outline: none; /* Nếu bạn muốn loại bỏ viền khi tập trung vào phần tử */
+    color:white;
+  }
 
 
 
